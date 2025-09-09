@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import { config } from './config';
-import { Server } from './express/server';
+import { Server } from './socket/server';
 import { logger } from './utils/logger/index';
 
 const { mongo, service } = config;
